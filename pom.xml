@@ -8,7 +8,7 @@
     <name>java-project-template</name>
 
     <groupId>org.itcluster</groupId>
-    <artifactId>java-project-template</artifactId>
+    <artifactId>kukuruza-pets</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -40,7 +40,7 @@
                 <version>3.0.2</version>
                 <configuration>
                     <jdkVersion>11</jdkVersion>
-                    <appName>java-project-template</appName>
+                    <appName>kukuruza-pets</appName>
                 </configuration>
 <!--                <processTypes>-->
 <!--                    <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>-->
@@ -152,7 +152,8 @@
             </activation>
             <properties>
                 <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
-                <sonar.organization>serhiikartashov</sonar.organization>
+                <sonar.organization>kukuruzavictor</sonar.organization>
+                <!--suppress UnresolvedMavenProperty -->
                 <sonar.login>${env.SONAR_TOKEN}</sonar.login>
             </properties>
         </profile>
